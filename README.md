@@ -22,26 +22,3 @@ NumPy
 Matplotlib
 Scikit-Learn
 Jupyter Notebook
-📂 Project Structure
-House-Price-Prediction/
-│
-├── dataset/
-│   └── housing.csv
-│
-├── notebooks/
-│   └── HousePricePrediction.ipynb
-│
-├── models/
-│   └── trained_model.pkl
-│
-├── src/
-│   ├── preprocessing.py
-│   ├── train.py
-│   ├── predict.py
-│   └── evaluation.py
-│
-└── README.md
-
-CREATED BY
-Shashank
-Abhishek Gaikwad
