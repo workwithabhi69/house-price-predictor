@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+Model,MAE,RMSE,R² Score
+Linear Regression,243241.98,279859.73,-0.0067
+Ridge Regression,243243.24,279859.1,-0.0067
+Random Forest Regressor,252401.3,291306.28,-0.0908
+=======
+Model,MAE,RMSE,R² Score
+Linear Regression,243241.98,279859.73,-0.0067
+Ridge Regression,243243.24,279859.1,-0.0067
+Random Forest Regressor,252401.3,291306.28,-0.0908
+>>>>>>> ecd2909c32b6a754e02c050b36674d3e8499487e

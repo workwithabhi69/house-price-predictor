@@ -1,1 +1,1 @@
-# house-price-predictor
+# ML-Mini-Project

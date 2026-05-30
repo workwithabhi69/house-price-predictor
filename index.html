@@ -1,0 +1,181 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>House Price Predictor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <div class="doodle doodle1"></div>
+  <div class="doodle doodle2"></div>
+  <div class="doodle doodle3"></div>
+
+  <div class="container fade-in">
+    <div class="header">
+      <img src="https://cdn-icons-png.flaticon.com/512/235/235889.png" class="icon">
+      <h1>House Price Predictor</h1>
+      <p>Enter the property details to estimate market price in Indian Rupees.</p>
+    </div>
+
+    <form id="predictForm">
+      <div class="form-grid">
+        <div class="form-group">
+          <label>Total Area (sq ft)</label>
+          <input type="number" id="area" required>
+        </div>
+
+        <div class="form-group">
+          <label>Bedrooms</label>
+          <input type="number" id="bedrooms" required>
+        </div>
+
+        <div class="form-group">
+          <label>Bathrooms</label>
+          <input type="number" id="bathrooms" required>
+        </div>
+
+        <div class="form-group">
+          <label>Floors</label>
+          <input type="number" id="floors" required>
+        </div>
+
+        <div class="form-group">
+          <label>Year Built</label>
+          <input type="number" id="yearbuilt" required>
+        </div>
+
+        <div class="form-group">
+          <label>Location</label>
+          <select id="location" required>
+            <option value="">Select</option>
+            <option>Downtown</option>
+            <option>Suburban</option>
+            <option>Rural</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Condition</label>
+          <select id="condition" required>
+            <option value="">Select</option>
+            <option>Excellent</option>
+            <option>Good</option>
+            <option>Fair</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Garage</label>
+          <select id="garage" required>
+            <option value="">Select</option>
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+        </div>
+      </div>
+
+      <button type="submit" id="predictBtn">Predict Price</button>
+    </form>
+
+    <div id="loader" class="loader"></div>
+    <div id="result" class="result"></div>
+    <div id="error" class="error"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>House Price Predictor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <div class="doodle doodle1"></div>
+  <div class="doodle doodle2"></div>
+  <div class="doodle doodle3"></div>
+
+  <div class="container fade-in">
+    <div class="header">
+      <img src="https://cdn-icons-png.flaticon.com/512/235/235889.png" class="icon">
+      <h1>House Price Predictor</h1>
+      <p>Enter the property details to estimate market price in Indian Rupees.</p>
+    </div>
+
+    <form id="predictForm">
+      <div class="form-grid">
+        <div class="form-group">
+          <label>Total Area (sq ft)</label>
+          <input type="number" id="area" required>
+        </div>
+
+        <div class="form-group">
+          <label>Bedrooms</label>
+          <input type="number" id="bedrooms" required>
+        </div>
+
+        <div class="form-group">
+          <label>Bathrooms</label>
+          <input type="number" id="bathrooms" required>
+        </div>
+
+        <div class="form-group">
+          <label>Floors</label>
+          <input type="number" id="floors" required>
+        </div>
+
+        <div class="form-group">
+          <label>Year Built</label>
+          <input type="number" id="yearbuilt" required>
+        </div>
+
+        <div class="form-group">
+          <label>Location</label>
+          <select id="location" required>
+            <option value="">Select</option>
+            <option>Downtown</option>
+            <option>Suburban</option>
+            <option>Rural</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Condition</label>
+          <select id="condition" required>
+            <option value="">Select</option>
+            <option>Excellent</option>
+            <option>Good</option>
+            <option>Fair</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Garage</label>
+          <select id="garage" required>
+            <option value="">Select</option>
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+        </div>
+      </div>
+
+      <button type="submit" id="predictBtn">Predict Price</button>
+    </form>
+
+    <div id="loader" class="loader"></div>
+    <div id="result" class="result"></div>
+    <div id="error" class="error"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+>>>>>>> ecd2909c32b6a754e02c050b36674d3e8499487e
